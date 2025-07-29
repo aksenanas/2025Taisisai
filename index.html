@@ -6,7 +6,7 @@
             body {
                 font-family: sans-serif;
                 margin: 0;
-                background-color: #f0f0f0;
+                background-color: #ffffff;
             }
             .gallery {
                 display: flex;
@@ -29,15 +29,18 @@
                 height: 100%;
                 overflow: auto;
                 background-color: rgba(0,0,0,0.7);
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             .modal-content {
-                background-color: rgba(255,255,255,0.75);
-                margin: 10% auto;
+                background-color: rgba(255, 255, 255, 0.95);
                 padding: 20px;
                 width: 80%;
                 max-width: 600px;
                 border-radius: 10px;
                 text-align: center;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             }
             .modal-content img {
                 width: 100%;
@@ -46,13 +49,13 @@
                 margin-bottom: 20px;
             }
             .close {
-                color: #fffafa;
+                color: #aaa;
                 float: right;
                 font-size: 28px;
                 font-weight: bold;
                 cursor: pointer;
-            }   
-         </style>
+            }
+        </style>
     </head>
      <body>
         <div class="gallery">
