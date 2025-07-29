@@ -6,12 +6,11 @@
             body {
                 font-family: sans-serif;
                 margin: 0;
-                background-color: #ffffff;
+                background-color: #ffffff; /* 背景を白に設定 */
             }
             .gallery {
-                display: flex;
-                justify-content: center;
-                margin-top: 50px;
+                display: block; /* Flexbox配置を解除して左上配置 */
+                margin: 50px 0 0 50px; /* 左上に配置 */
             }
             .gallery img {
                 width: 300px;
@@ -29,9 +28,7 @@
                 height: 100%;
                 overflow: auto;
                 background-color: rgba(0,0,0,0.7);
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                display: block; /* Flexbox配置を解除して左上配置 */
             }
             .modal-content {
                 background-color: rgba(255, 255, 255, 0.95);
@@ -39,8 +36,9 @@
                 width: 80%;
                 max-width: 600px;
                 border-radius: 10px;
-                text-align: center;
+                text-align: left;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                margin: 50px; /* 左上に配置 */
             }
             .modal-content img {
                 width: 100%;
